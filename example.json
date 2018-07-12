@@ -1,0 +1,58 @@
+{
+  "name":     "Euclydia",
+  "promoted": false,
+  "bases":    {
+    "hp":  20,
+    "str": 5,
+    "mag": 3,
+    "skl": 7,
+    "spd": 10,
+    "lck": 5,
+    "def": 2,
+    "res": 4,
+    "con": 8
+  },
+  "levels": [
+    ["hp", "str","skl"],
+    ["hp", "lck","res"],
+    ["hp", "skl"],
+    ["hp", "skl","lck","def"],
+    ["hp", "spd","lck","con"],
+    ["hp", "mag","lck"],
+    ["hp", "skl","lck"],
+    ["mag","lck"],
+    ["hp", "mag","skl","lck","res"],
+    ["skl","spd"],
+    ["mag","lck","con"],
+    ["str","skl"],
+    ["hp", "lck","res","con"],
+    ["lck","def"],
+    ["skl","lck"],
+    ["skl","lck","def","res"],
+    ["str","res"],
+    ["hp", "spd","lck"],
+    ["skl","lck","def"]
+  ],
+  "promo": {
+    "hp":  -3,
+    "str": -1,
+    "mag":  6,
+    "skl":  1,
+    "spd":  0,
+    "lck":  0,
+    "def": -1,
+    "res":  5,
+    "con": -1
+  },
+  "boosters": {
+    "hp":  [],
+    "str": [],
+    "mag": [],
+    "skl": [],
+    "spd": [],
+    "lck": [],
+    "def": [],
+    "res": [],
+    "con": []
+  }
+}

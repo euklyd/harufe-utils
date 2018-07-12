@@ -1,0 +1,1 @@
+Run with `python statcalc.py charname.json`, then use the functions in statcalc to do calculation things ð 
